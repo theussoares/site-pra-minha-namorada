@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     outDir: '.output/public' // Diretório de saída para a construção estática
   },
   app: {
-    baseURL: '/love' // (Se necessário, configure a baseURL conforme seu caminho de deploy)
+    baseURL: '/' // (Se necessário, configure a baseURL conforme seu caminho de deploy)
   },
 
   modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
